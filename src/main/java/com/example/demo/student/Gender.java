@@ -4,7 +4,6 @@ public enum Gender {
 
     MALE,
     FEMALE,
-    OTHER,
-    NEW
+    OTHER
 
 }
