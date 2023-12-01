@@ -74,7 +74,7 @@ function App() {
             columns={columns}
             bordered
             title={() => 'Students'}
-            pagination={{pageSize: 10}}
+            pagination={{pageSize: 8}}
             scroll={{y: 350}}
             rowKey={(student) => student.id}
         />;
@@ -122,7 +122,7 @@ function App() {
                 </div>
             </Content>
             <Footer style={{textAlign: 'center'}}>
-                From Friends © 2023 Created by Egamberdi
+                From Friends © 2023 Created by Egamberdi and Bekhruz
             </Footer>
         </Layout>
     </Layout>
